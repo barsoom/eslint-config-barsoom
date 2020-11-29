@@ -1,0 +1,12 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "standard",
+    "standard-jsx",
+    "standard-react",
+    "prettier"
+  ],
+  "rules": {
+    "no-debugger": "off"
+  }
+}
