@@ -12,7 +12,8 @@
   "overrides": [
     {
       "files": [
-        "**/*.test.js"
+        "**/*.test.js",
+        "**/__mocks__/*.js"
       ],
       "env": {
         "jest": true
