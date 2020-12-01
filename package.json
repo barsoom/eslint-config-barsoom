@@ -1,6 +1,6 @@
 {
   "name": "@barsoom/eslint-config-barsoom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint config for barsoom",
   "main": "index.js",
   "scripts": {
