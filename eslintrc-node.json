@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "standard",
+    "prettier"
+  ],
+  "rules": {
+    "no-debugger": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.js",
+        "**/__mocks__/*.js"
+      ],
+      "env": {
+        "jest": true
+      },
+      "plugins": ["jest"],
+      "rules": {
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+      }
+    }
+  ]
+}

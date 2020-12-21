@@ -37,4 +37,10 @@ For a browser environment you might want to add:
       }
     }
 
+Or if you're running in pure nodejs without react:
+
+    {
+      "extends": ["@barsoom/barsoom/node"]
+    }
+
 Use this with our [prettier config](https://github.com/barsoom/prettier-config)
