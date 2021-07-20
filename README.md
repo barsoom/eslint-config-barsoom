@@ -20,9 +20,13 @@ It allows us to work without fighting with the linter about stylistic things, an
 
 # How to use?
 
+Configure npm for our private GitHub packages: <https://github.com/barsoom/auctionet/blob/master/developer_documentation/configuring_npm_for_github_packages.md>
+
+Then:
+
     npm install --save-dev @barsoom/eslint-config-barsoom
 
-And then add to your eslintrc:
+Then add to your eslintrc:
 
 ```json
 {
