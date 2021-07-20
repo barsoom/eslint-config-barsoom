@@ -22,25 +22,31 @@ It allows us to work without fighting with the linter about stylistic things, an
 
     npm install --save-dev @barsoom/eslint-config-barsoom
 
-And then just add to your eslintrc:
+And then add to your eslintrc:
 
-    {
-      "extends": ["@barsoom/barsoom"]
-    }
+```json
+{
+  "extends": ["@barsoom/barsoom"]
+}
+```
 
 For a browser environment you might want to add:
 
-    {
-      "extends": ["@barsoom/barsoom"],
-      "env": {
-        "browser": true
-      }
-    }
+```json
+{
+  "extends": ["@barsoom/barsoom"],
+  "env": {
+    "browser": true
+  }
+}
+```
 
 Or if you're running in pure nodejs without react:
 
-    {
-      "extends": ["@barsoom/barsoom/node"]
-    }
+```json
+{
+  "extends": ["@barsoom/barsoom/node"]
+}
+```
 
-Use this with our [prettier config](https://github.com/barsoom/prettier-config)
+Use this with our [prettier config](https://github.com/barsoom/prettier-config).
