@@ -20,7 +20,7 @@
       "env": {
         "jest": true
       },
-      "plugins": ["jest", "enzyme"],
+      "plugins": ["jest"],
       "rules": {
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
