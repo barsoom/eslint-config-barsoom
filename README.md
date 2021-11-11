@@ -14,9 +14,9 @@ StandardJS is non-configurable, and we want trailing commas.
 
 StandardJS will complain whenever we make a simple mistake. Missing spaces, semicolons, trailing commas.
 
-Prettier will let us make mistakes, and fixes our code after.
+Prettier will allow us make formatting mistakes, and fixes our code after.
 
-It allows us to work without fighting with the linter about stylistic things, and lets us focus on writing working code instead.
+It allows us to work without fighting with the linter about stylistic things, and lets us focus on writing code instead.
 
 # How to use?
 
@@ -34,23 +34,25 @@ Then add to your eslintrc:
 }
 ```
 
-For a browser environment you might want to add:
+For a react project, you probably want to do:
 
 ```json
 {
-  "extends": ["@barsoom/barsoom"],
+  "extends": ["@barsoom/barsoom/react"],
   "env": {
     "browser": true
   }
 }
 ```
 
-Or if you're running in pure nodejs without react:
+And for a nodejs project:
 
 ```json
 {
   "extends": ["@barsoom/barsoom/node"]
 }
 ```
+
+---
 
 Use this with our [prettier config](https://github.com/barsoom/prettier-config).

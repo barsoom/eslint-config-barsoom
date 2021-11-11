@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "./jest.json"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.{js,jsx,ts,tsx}",
+        "**/__mocks__/*.{js,jsx,ts,tsx}"
+      ],
+      "plugins": ["jest-dom"],
+      "extends": ["plugin:jest-dom/recommended"]
+    }
+  ]
+}

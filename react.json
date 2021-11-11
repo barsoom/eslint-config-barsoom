@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard-jsx",
+    "standard-react",
+    "./jest-dom.json",
+    "./base.json"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-no-bind": "off"
+  }
+}

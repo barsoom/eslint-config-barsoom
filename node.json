@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "./jest.json",
+    "./base.json"
+  ]
+}

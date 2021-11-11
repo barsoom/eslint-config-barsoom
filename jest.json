@@ -1,26 +1,15 @@
 {
-  "parser": "@babel/eslint-parser",
-  "extends": [
-    "standard",
-    "standard-jsx",
-    "standard-react",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "prettier"
-  ],
-  "rules": {
-    "no-debugger": "off"
-  },
   "overrides": [
     {
       "files": [
         "**/*.test.{js,jsx,ts,tsx}",
         "**/__mocks__/*.{js,jsx,ts,tsx}"
       ],
+      "extends": ["plugin:jest/recommended"],
       "env": {
-        "jest": true
+        "jest": true,
+        "jest/globals": true
       },
-      "plugins": ["jest"],
       "rules": {
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
